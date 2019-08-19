@@ -9,4 +9,91 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  height: 5rem;
+  width: 100%;
+}
+
+/*div {
+  border: 1px solid red;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+
+  flex-direction: row;
+  background-color: rgb(113, 35, 187);
+  color: white;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  background-color: gray;
+}
+
+.header-image h1 {
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright-text {
+  display: flex;
+  justify-content: center;
+}
+
+.upcoming-launches {
+  background-color: rgba(255, 196, 4, 0.932);
+}
+
+.api-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.api-container article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 80%;
+  background-color: gray;
+  color: white;
+}
+
+.mission-statement {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #d1c4e9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
